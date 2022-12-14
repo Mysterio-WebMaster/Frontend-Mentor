@@ -1,0 +1,44 @@
+@media screen and (max-width: 400px) {
+    .productBox{
+        width: 300px;
+        background: white;
+        height: auto;
+        border-radius: 8px;
+        display: block;
+        margin: 50px 0;
+        padding: 12px;
+    }
+    
+    .productBox .bg{
+        
+        height: auto;
+        width: 250px;
+        display: block;
+        
+
+        border-radius: 8px 8px 0px 0px;
+        visibility: hidden;
+    }
+
+    .img{
+        background-image: url('./assest/images/image-product-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-clip: content-box;
+        background-size: cover;
+    }
+    
+    .productBox .descBox{
+        padding: 10px;
+    }
+
+    .productBox .descBox button{
+        background: hsl(158, 36%, 37%);
+        border: none;
+        padding: 15px;
+        width: 100%;
+        color: white;
+        border-radius: 9px;
+    }
+    
+  }

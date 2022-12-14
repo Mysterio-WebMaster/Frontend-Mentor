@@ -69,6 +69,10 @@ body{
     border-radius: 9px;
 }
 
+.productBox .descBox button:hover{
+    background: hsl(212, 21%, 14%);
+}
+
 .productBox .descBox .icon{
     margin-right: 8px;
 }

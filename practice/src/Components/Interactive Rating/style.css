@@ -1,0 +1,64 @@
+body{
+    background:  hsl(216, 12%, 8%);
+}
+
+.RatingBox{
+    background: hsl(213, 19%, 18%);
+    width: 475px;
+    height: fit-content;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+    color: white;
+}
+
+.RatingBox .desc{
+    color: hsl(217, 12%, 63%);
+}
+
+.RatingBox .starBox{
+    margin: 25px 0;
+}
+
+.RatingBox .starBox img{
+    background: hsl(213deg 15% 22% / 46%);
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.Ratings{
+    text-align: center;
+}
+
+.Ratings .value{
+    background: hsl(213deg 15% 22% / 46%);
+    color: hsl(217, 12%, 63%);;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.Ratings .value:hover{
+    background: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+.Ratings .value::selection{
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.RatingBox button{
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    margin-bottom: 25px;
+}

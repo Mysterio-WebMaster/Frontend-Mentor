@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    background: hsl(217, 54%, 11%) ; 
+}
+
+.Card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hsl(216, 50%, 16%);
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+    color: White;
+    font-size: 18px;
+}
+
+.Card .nft{
+    border-radius: 8px;
+}
+
+.Card .profile{
+
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.desc, .created{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+}
+
+.cost{
+    color: cyan;
+}
+
+.duration{
+    float: right;
+    text-align: right;
+}
+.name{
+    color: white;
+}
+
+.title:hover{
+    cursor: pointer;
+    color: cyan;
+} 
+.name:hover{
+    cursor: pointer;
+    color: cyan;
+}

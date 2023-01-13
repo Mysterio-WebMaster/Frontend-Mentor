@@ -19,7 +19,7 @@ body{
     color: hsl(217, 12%, 63%);
 }
 
-.RatingBox .starBox{
+.Rati   ngBox .starBox{
     margin: 25px 0;
 }
 
@@ -34,23 +34,29 @@ body{
     text-align: center;
 }
 
-.Ratings .value{
-    background: hsl(213deg 15% 22% / 46%);
-    color: hsl(217, 12%, 63%);;
-    padding: 25px;
-    border-radius: 50%;
-}
-
-.Ratings .value:hover{
-    background: hsl(25, 97%, 53%);
-    color: white;
+.Ratings input {
+    appearance: none;
     cursor: pointer;
-}
+    border-radius: 75%;
+    padding: 18px 23px;
+    background: #3f414d;
+    color: #ececec;
+    font-size: 15px;
+    transition: all 0.1s;
+    margin: 13px;
+  }
+  .Ratings input:hover{
+    background: hsl(217, 12%, 63%);
+  }
 
-.Ratings .value::selection{
+  .Ratings input:checked {
     background: hsl(25, 97%, 53%);
-    color: white;
-}
+  }
+
+  .Ratings input::before {
+    content: attr(label);
+    text-align: center;
+  }
 
 .RatingBox button{
     width: 100%;
@@ -61,4 +67,11 @@ body{
     background: hsl(25, 97%, 53%);
     color: white;
     margin-bottom: 25px;
+}
+
+
+
+.RatingBox button:hover{
+    color: hsl(25, 97%, 53%);
+    background: white;
 }

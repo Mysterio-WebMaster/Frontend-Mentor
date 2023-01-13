@@ -2,7 +2,7 @@ body{
     background:  hsl(216, 12%, 8%);
 }
 
-.RatingBox{
+.RatingBox, .ThankyouBox{
     background: hsl(213, 19%, 18%);
     width: 475px;
     height: fit-content;
@@ -74,4 +74,28 @@ body{
 .RatingBox button:hover{
     color: hsl(25, 97%, 53%);
     background: white;
+}
+
+
+.ThankyouBox{
+    text-align: center;
+}
+
+.ThankyouBox img{
+    margin: 25px 0;
+}
+
+.ThankyouBox .ratings{
+    background: hsl(213deg 15% 22% / 46%);
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.ThankyouBox .ratings p{
+    text-align: center;
+    padding: 8px 25px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
 }

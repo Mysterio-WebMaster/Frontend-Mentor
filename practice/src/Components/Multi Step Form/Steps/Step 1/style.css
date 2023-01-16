@@ -8,7 +8,7 @@
 }
 
 .formContent input{
-    width: 0%;
+    width: 100%;
     padding: 12px;
     border-radius: 6px;
     margin-bottom: 20px;
@@ -24,7 +24,7 @@
 
 .nextStep{
     position: relative;
-    right: -75%;
+    right: -85%;
     color: white;
     background: hsl(213, 96%, 18%);
     padding: 9px 16px;
